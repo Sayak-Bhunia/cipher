@@ -30,19 +30,16 @@ const Header = () => {
   const formattedTime = currentTime.toLocaleTimeString();
   const formattedDate = currentTime.toLocaleDateString();
   const locationString = currentLocation
-    ? `Latitude: ${currentLocation.latitude}, Longitude: ${currentLocation.longitude}`
+    ? `lat: ${currentLocation.latitude}, long: ${currentLocation.longitude}`
     : 'Location not available';
 
   return (
     <>
       <div class="flex flex-col items-left lg:flex-row lg:items-start justify-center">
-        <div class="text-left mt-4 lg:mr-6">
-          <div className="text-sm text-cyan-400">
+        <div class="text-center mt-4 lg:mr-6">
+          <div className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold text-cyan-400">
             {formattedTime}
-          </div>
-        </div>
-        <div class="text-left mt-4 lg:mr-6">
-          <div className="text-sm text-cyan-400">
+            <span className="text-custom">hshsjsjsjsjssj</span>
             {formattedDate}
           </div>
         </div>
