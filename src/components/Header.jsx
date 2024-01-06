@@ -2,25 +2,12 @@ import React, { useState, useEffect } from 'react';
 
 const Header = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
-  const [currentLocation, setCurrentLocation] = useState(null);
 
   useEffect(() => {
-    // Update time every second
+
     const timeIntervalId = setInterval(() => {
       setCurrentTime(new Date());
     }, 1000);
-
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        position => {
-          const { latitude, longitude } = position.coords;
-          setCurrentLocation({ latitude, longitude });
-        },
-        error => {
-          console.error('Error getting location:', error);
-        }
-      );
-    }
 
     return () => {
       clearInterval(timeIntervalId);
@@ -29,9 +16,6 @@ const Header = () => {
 
   const formattedTime = currentTime.toLocaleTimeString();
   const formattedDate = currentTime.toLocaleDateString();
-  const locationString = currentLocation
-    ? `lat: ${currentLocation.latitude}, long: ${currentLocation.longitude}`
-    : 'Location not available';
 
   return (
     <>
