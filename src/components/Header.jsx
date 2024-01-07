@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <>
       <div class="flex flex-col items-left lg:flex-row lg:items-start justify-center">
-        <div class="text-center mt-2 lg:mr-6">
+        <div class="text-center lg:mr-6">
           <div className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold text-cyan-400">
             {formattedTime}
             <span className="text-custom">hshsjsjsjsjssj</span>
