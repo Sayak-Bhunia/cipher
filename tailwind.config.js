@@ -13,6 +13,6 @@ export default {
       'custom': '#060606',
     }},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
