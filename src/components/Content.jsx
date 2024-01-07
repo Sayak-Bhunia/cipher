@@ -12,7 +12,7 @@ const Content = () => {
         <div className="flex flex-col items-left lg:flex-row lg:items-start justify-center">
           <div className="text-left mt-2 lg:mr-6">
             <img src="./Heading2.png" className="w-96" alt="Heading" />
-            <progress className="progress w-84 bg-cyan-500"></progress>
+            <progress className="progress w-84"></progress>
             <h3 className="text-cyan-400 text-lg font-semibold tracking-tight ml-0s">
               <a
                 href="https://drive.google.com/file/d/1x0_IBT1UpyaDrWv546VgPFY7thx50J8_/view?usp=sharing"
