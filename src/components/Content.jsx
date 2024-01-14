@@ -13,7 +13,7 @@ const Content = () => {
           <div className="text-left mt-2 lg:mr-6">
             <img src="./Heading3.png" className="w-96" alt="Heading" />
             <progress className="progress w-84"></progress>
-            <h3 className="text-cyan-400 text-lg font-semibold tracking-tight ml-0s">
+            <h3 className="text-neutral-200 text-lg font-semibold tracking-tight ml-0s">
               <a
                 href="https://drive.google.com/file/d/1x0_IBT1UpyaDrWv546VgPFY7thx50J8_/view?usp=sharing"
                 target="_blank"
@@ -49,7 +49,7 @@ const Content = () => {
             <h3 className="text-slate-500 text-md font-semibold tracking-tight ml-0">
               leetcode schedule.
             </h3>
-            <h3 className="text-nuetral-200 text-lg font-semibold tracking-tight mt-4 ml-0s">
+            <h3 className="text-neutral-200 text-lg font-semibold tracking-tight mt-4 ml-0s">
               <a
                 href="https://www.codechef.com/contests"
                 target="_blank"
@@ -61,7 +61,7 @@ const Content = () => {
             <h3 className="text-slate-500 text-md font-semibold tracking-tight ml-0">
               codechef schedule.
             </h3>
-            <h3 className="text-nuetral-200 text-lg font-semibold tracking-tight mt-4 ml-0s">
+            <h3 className="text-neutral-200 text-lg font-semibold tracking-tight mt-4 ml-0s">
               <a
                 href="https://codeforces.com/contests"
                 target="_blank"
@@ -73,7 +73,7 @@ const Content = () => {
             <h3 className="text-slate-500 text-md font-semibold tracking-tight ml-0">
               codeforces schedule.
             </h3>
-            <h3 className="text-nuetral-200 text-lg font-semibold tracking-tight mt-4 ml-0s">
+            <h3 className="text-neutral-200 text-lg font-semibold tracking-tight mt-4 ml-0s">
               <a
                 href="https://drive.google.com/file/d/1xpnDPhctOv7fTw0ILMJ074NXe3GnHbil/view?usp=sharing"
                 target="_blank"
